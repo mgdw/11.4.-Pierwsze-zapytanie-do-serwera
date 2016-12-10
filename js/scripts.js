@@ -12,6 +12,4 @@ function getJoke() {
   xhr.send();
 }
 
-button.addEventListener('click', function(){
-  getJoke();
-});
+button.addEventListener('click', getJoke);
